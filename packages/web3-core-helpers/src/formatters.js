@@ -159,7 +159,7 @@ var compareBlockNumbers = function(a, b) {
         } else if (b == "latest") {
             return 0;
         } else {
-            return -1;
+            return 1;
         }
     } else if (a == "pending") {
         if(b == "pending") {
